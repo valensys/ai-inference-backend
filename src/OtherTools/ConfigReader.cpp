@@ -1,4 +1,6 @@
 #include "ConfigReader.h"
+#include <string>
+#include <algorithm>
 
 ConfigReader::ConfigReader() {};
 

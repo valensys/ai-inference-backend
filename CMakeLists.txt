@@ -4,7 +4,7 @@ endif()
 
 cmake_minimum_required(VERSION 2.6)
 
-project(Analytics)
+project(Backend)
 
 #add_definitions(-std=c++20)
 
@@ -53,7 +53,7 @@ add_executable(${PROJECT_NAME}
                 ${RESTREAMING_CODE} 
                 ${OTHER_TOOLS_CODE})
 
-target_link_libraries(Analytics 
+target_link_libraries(Backend 
                         ${OpenCV_LIBS}
                         PocoUtil
                         PocoNet
