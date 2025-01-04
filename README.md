@@ -1,3 +1,8 @@
+# Description
+
+Project is supposed to be a high-performance backend, which will process videofiles, pictures or interact with user via frontend part.
+Frontend part is here - https://github.com/valensys/ai-inference-frontend
+
 # Prepare Ubuntu (tested on 22.04 and 24.04)
 
 ### Install packages
