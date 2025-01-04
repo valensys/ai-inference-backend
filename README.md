@@ -54,7 +54,7 @@ ln -s /usr/local/onnxruntime-linux-x64-1.17.3 /usr/local/onnxruntime
 ### Move to /opt directory and clone a branch of "recognition" repository there
 ``` bash
 cd /opt
-git clone -b analytics-deploy-cpu --single-branch --depth=1 https://gitlab.controlsystems.ru/gis/video-analytics/recognition.git
+git clone -b master --single-branch --depth=1 https://github.com/valensys/ai-inference-backend.git
 ```
 
 ### Build backend
