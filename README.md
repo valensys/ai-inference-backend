@@ -64,7 +64,7 @@ git clone -b master --single-branch --depth=1 https://github.com/valensys/ai-inf
 
 ### Build backend
 ```bash
-cd /opt/recognition
+cd /opt/ai-inference-backend
 mkdir build && cd build
 cmake ..
 make
@@ -80,5 +80,5 @@ export LD_LIBRARY_PATH=/usr/local/lib
 Check recognition/configs/main.cfg and change "host" and "port" according to requirements.
 For example assign: host=10.128.0.9, port=5200
 ```bash
-./Analytics
+./Backend
 ```
